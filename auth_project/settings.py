@@ -136,8 +136,8 @@ STATICFILES_FINDERS = (
 
 # Configure SMTP email settings
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'mail.abdelhak-dridi.com'  # SMTP server host
-EMAIL_PORT = 465  # SMTP port
+EMAIL_HOST = 'YOUR_SMTP_SERVER_HOST'  # SMTP server host
+EMAIL_PORT = YOUR_SMTP_PORT  # SMTP port
 EMAIL_USE_SSL = True  # Use SSL
-EMAIL_HOST_USER = 'contact@abdelhak-dridi.com'  
-EMAIL_HOST_PASSWORD = '$#. Ad199707'
+EMAIL_HOST_USER = 'YOUR_EMAIL_ADDRESS'  # Your email address
+EMAIL_HOST_PASSWORD = 'YOUR_EMAIL_PASSWORD'  # Your email password
