@@ -15,6 +15,27 @@ python -m pip install django-compressor -->
 
 This is a Django project for authentication purposes.
 
+## Screenshot
+<table style="width:100%">
+  <tr>
+    <th>Login</th>
+    <th>Register</th> 
+  </tr>
+  <tr>
+    <td><img src="images/login.png"/></td>
+    <td><img src="images/register.png"/></td> 
+  </tr>
+  <tr>
+    <th>Forgot Password</th>
+    <th>Reset Password</th>
+  </tr>
+  <tr>
+    <td><img src="images/forgot-password.png"/></td>
+    <td><img src="images/reset-password.png"/></td>
+  </tr>
+</table>
+
+
 ## Getting Started
 
 Follow these instructions to get a local copy of the project up and running on your machine.
